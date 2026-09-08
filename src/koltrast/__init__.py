@@ -1,4 +1,4 @@
-from ._backends import (
+from .backends import (
     DEFAULT_BACKEND,
     GLINER_MODEL,
     KB_BERT_MODEL,
@@ -11,7 +11,7 @@ from ._backends import (
     register_backend,
 )
 from ._frames import PandasPerformanceWarning
-from ._ner import load
+from .backends import load
 from ._personnummer import find_personnummer, is_valid_personnummer
 from .core import (
     MODEL_NAME,

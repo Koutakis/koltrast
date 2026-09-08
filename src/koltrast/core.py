@@ -3,8 +3,8 @@ from dataclasses import dataclass, field
 from typing import Any, TypeVar
 
 from . import _frames
-from ._backends import DEFAULT_BACKEND, KB_BERT_MODEL, BackendConfig
-from ._ner import find_person_spans
+from .backends import DEFAULT_BACKEND, KB_BERT_MODEL, BackendConfig
+from .backends import find_person_spans
 from ._personnummer import find_personnummer
 
 MODEL_NAME = KB_BERT_MODEL
