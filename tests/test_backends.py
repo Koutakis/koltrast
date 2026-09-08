@@ -2,8 +2,8 @@ import polars as pl
 import pytest
 
 import koltrast as kt
-from koltrast import _backends
-from koltrast._backends import BackendConfig, GLiNERBackend, NoopBackend, PresidioBackend
+from koltrast import backends as _backends
+from koltrast.backends import BackendConfig, GLiNERBackend, NoopBackend, PresidioBackend
 
 
 def test_default_backend_is_kb_bert():

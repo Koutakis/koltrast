@@ -5,6 +5,8 @@ build-backend = "hatchling.build"
 [project]
 name = "koltrast"
 version = "0.1.0"
+readme = "README.md"
+license = { file = "LICENSE" }
 description = "Redact Swedish names and personnummer from polars DataFrames"
 requires-python = ">=3.10"
 dependencies = [

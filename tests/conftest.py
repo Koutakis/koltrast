@@ -3,7 +3,7 @@ import re
 import pytest
 
 import koltrast
-from koltrast import _backends
+from koltrast import backends as _backends
 
 # names the fake model "recognises" - enough to exercise span logic deterministically
 KNOWN_NAMES = [
