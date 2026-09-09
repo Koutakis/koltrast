@@ -41,8 +41,6 @@ class BackendConfig:
 def _pin_threads(num_threads: int | None) -> None:
     if num_threads is None:
         return
-    # torch otherwise reads the node's core count, not the cgroup limit,
-    # and thrashes threads on a large k8s node.
     os.environ.setdefault("OMP_NUM_THREADS", str(num_threads))
     try:
         import torch
@@ -69,6 +67,8 @@ class KBBertBackend:
         if self._pipe is not None:
             return
         _pin_threads(self.config.num_threads)
+        if self.config.local_only:
+            os.environ.setdefault("HF_HUB_OFFLINE", "1")
         from transformers import pipeline
 
         try:
@@ -76,7 +76,6 @@ class KBBertBackend:
                 "token-classification",
                 model=self.model,
                 aggregation_strategy="simple",
-                model_kwargs={"local_files_only": self.config.local_only},
             )
         except Exception as e:
             raise _missing("kb-bert", self.model, e) from e
@@ -92,7 +91,7 @@ class KBBertBackend:
             [
                 (e["start"], e["end"])
                 for e in row
-                if e["entity_group"] == "PRS" and e["score"] >= self.config.min_score
+                if e["entity_group"] == "PER" and e["score"] >= self.config.min_score
             ]
             for row in results
         ]
@@ -120,7 +119,7 @@ class GLiNERBackend:
             return []
         self.load()
         labels = list(self.config.labels)
-        threshold = self.config.min_score or 0.5  # gliner needs a real threshold
+        threshold = self.config.min_score or 0.5
         results = self._model.batch_predict_entities(texts, labels, threshold=threshold)
         return [[(e["start"], e["end"]) for e in row] for row in results]
 
@@ -218,6 +217,7 @@ def resolve(spec: Any, config: BackendConfig) -> Backend:
         _CACHE[key] = _REGISTRY[spec](config)
     return _CACHE[key]
 
+
 def load(
     backend: Any = DEFAULT_BACKEND,
     model: str | None = None,
@@ -244,34 +244,8 @@ def find_person_spans(
     return resolve(backend, config or BackendConfig()).person_spans(texts)
 
 
-__all__ = ["load", "find_person_spans", "ModelNotAvailableError"]
+__all__ = ["load", "find_person_spans", "ModelNotAvailableError", "clear_cache"]
 
 
 def clear_cache() -> None:
     _CACHE.clear()
-
-
-def load(
-    backend: Any = DEFAULT_BACKEND,
-    model: str | None = None,
-    local_only: bool = False,
-    num_threads: int | None = None,
-    **options: Any,
-) -> None:
-    config = BackendConfig(
-        model=model,
-        local_only=local_only,
-        num_threads=num_threads,
-        options=tuple(sorted(options.items())),
-    )
-    resolve(backend, config).load()
-
-
-def find_person_spans(
-    texts: list[str],
-    backend: Any = DEFAULT_BACKEND,
-    config: BackendConfig | None = None,
-) -> list[Spans]:
-    if not texts:
-        return []
-    return resolve(backend, config or BackendConfig()).person_spans(texts)
