@@ -6,6 +6,7 @@ from . import _frames
 from .backends import DEFAULT_BACKEND, KB_BERT_MODEL, BackendConfig
 from .backends import find_person_spans
 from ._personnummer import find_personnummer
+from ._email import find_email
 
 MODEL_NAME = KB_BERT_MODEL
 
@@ -13,12 +14,14 @@ Frame = TypeVar("Frame")
 
 NAME_TAG = "[NAMN]"
 PERSONNUMMER_TAG = "[PERSONNUMMER]"
+EMAIL_TAG = "[EMAIL]"
 
 
 @dataclass(frozen=True)
 class Config:
     name_tag: str = NAME_TAG
     personnummer_tag: str = PERSONNUMMER_TAG
+    email_tag: str = EMAIL_TAG
     suffix: str = "_redacted"
     backend: Any = DEFAULT_BACKEND
     model: str | None = None
@@ -31,6 +34,7 @@ class Config:
     backend_options: dict[str, Any] = field(default_factory=dict)
     redact_names: bool = True
     redact_personnummer: bool = True
+    redact_email: bool = True
     validate_personnummer: bool = True
     enumerate_names: bool = False
     extra_patterns: dict[str, str] = field(default_factory=dict)
@@ -54,6 +58,7 @@ class Report:
     rows_with_pii: int = 0
     names: int = 0
     personnummer: int = 0
+    email: int = 0
     extra: dict[str, int] = field(default_factory=dict)
 
     def __add__(self, other: "Report") -> "Report":
@@ -108,6 +113,14 @@ def _spans_for(text: str, names: list[tuple[int, int]], config: Config) -> list[
             (s, e, config.personnummer_tag)
             for s, e in find_personnummer(text, validate=config.validate_personnummer)
         ]
+
+    # Nike added
+    if config.redact_email:
+        spans += [
+            (start, end, config.email_tag)
+            for start, end in find_email(text)
+        ]
+    # end
 
     for tag, pattern in config.extra_patterns.items():
         spans += [(m.start(), m.end(), tag) for m in re.finditer(pattern, text)]
