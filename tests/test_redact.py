@@ -85,6 +85,11 @@ def test_email_toggle_off():
     assert "kalle@example.se" in out
 
 
+def test_name_and_email_redacted():
+    out = kt.redact_text("Görans mailadress är göran@görancosmetics.se")
+    assert out == "[NAMN]s mailadress är [EMAIL]"
+
+
 def test_longest_span_wins_on_overlap():
     # "Anna Andersson" and "Anna" both match; no truncated garbage left behind
     assert kt.redact_text("Anna Andersson kom") == "[NAMN] kom"

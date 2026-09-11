@@ -1,7 +1,7 @@
 import re
 
 EMAIL_RE = re.compile(
-    r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b"
+    r"\b[\w.%+-]+@[\w.-]+\.[^\W\d_]{2,}\b"
 )
 
 def is_valid_email(raw: str) -> bool:
