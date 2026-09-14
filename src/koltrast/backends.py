@@ -120,7 +120,8 @@ class GLiNERBackend:
         self.load()
         labels = list(self.config.labels)
         threshold = self.config.min_score or 0.5
-        results = self._model.batch_predict_entities(texts, labels, threshold=threshold)
+        batch_size=self.config.batch_size or 32
+        results = self._model.batch_predict_entities(texts, labels, threshold=threshold, batch_size=batch_size)
         return [[(e["start"], e["end"]) for e in row] for row in results]
 
 

@@ -1,0 +1,300 @@
+{"text": "Vi åkte till Stockholm i går.", "expected": []}
+{"text": "Volvo lanserade en ny modell i veckan.", "expected": []}
+{"text": "Träffade ingen på kontoret idag.", "expected": []}
+{"text": "Det var Måndag och regnet öste ner.", "expected": []}
+{"text": "Riksdagen röstade igenom förslaget på fredagen.", "expected": []}
+{"text": "IKEA öppnar en ny butik i Uppsala.", "expected": []}
+{"text": "Göteborg och Malmö tävlar om att bli näst störst.", "expected": []}
+{"text": "Företaget Ericsson meddelade ett nytt samarbete.", "expected": []}
+{"text": "Vi träffade styrelsen och diskuterade budgeten.", "expected": []}
+{"text": "Sommaren och hösten blir extra varma i år enligt SMHI.", "expected": []}
+{"text": "Skatteverket och Migrationsverket samarbetar om projektet.", "expected": []}
+{"text": "Bussen och tåget var båda försenade på morgonen.", "expected": []}
+{"text": "Norra Europa drabbades av kraftiga stormar.", "expected": []}
+{"text": "Konserten och festivalen ställdes in på grund av vädret.", "expected": []}
+{"text": "Han träffade väggen när han sprang för fort.", "expected": []}
+{"text": "Vi träffade och pratade om Sommaren länge.", "expected": []}
+{"text": "Nordamerika och Sydamerika delar samma kontinent geografiskt.", "expected": []}
+{"text": "Spotify och Netflix höjde priserna igen.", "expected": []}
+{"text": "Det var Söndag morgon när larmet gick.", "expected": []}
+{"text": "Kommunen och regionen delar på kostnaden för bron.", "expected": []}
+{"text": "Han träffade Ledningsgruppen på tisdagen.", "expected": []}
+{"text": "Universitetet och högskolan slås samman nästa år.", "expected": []}
+{"text": "Vintern och våren är de mest nederbördsrika årstiderna.", "expected": []}
+{"text": "Banken och försäkringsbolaget utreds av myndigheten.", "expected": []}
+{"text": "Han träffade Styrelseordföranden men sa inget om mötet.", "expected": []}
+{"text": "Vi träffade Personalchefen innan lunch.", "expected": []}
+{"text": "Julen och Nyåret firas olika i olika länder.", "expected": []}
+{"text": "Tidningen och radion rapporterade samma nyhet.", "expected": []}
+{"text": "Han träffade Publiken med ett stort leende.", "expected": []}
+{"text": "Fabriken och lagret ligger utanför staden.", "expected": []}
+{"text": "Vi träffade Kunden på deras kontor i onsdags.", "expected": []}
+{"text": "Rådhuset och biblioteket renoveras i sommar.", "expected": []}
+{"text": "Regeringen och oppositionen är oense om budgeten.", "expected": []}
+{"text": "Hon träffade Grannen på vägen hem.", "expected": []}
+{"text": "Skolan och förskolan har stängt för lov.", "expected": []}
+{"text": "Ingen dök upp till mötet i går.", "expected": []}
+{"text": "Det regnade hela helgen i södra Sverige.", "expected": []}
+{"text": "Boken är tillägnad Nguyễn Văn An, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Deltagare: Lars Åberg och Kalani Kahananui.", "expected": ["NAME", "NAME"]}
+{"text": "Både Zsófia Kovács och Abdirahman Warsame nekade till anklagelserna.", "expected": ["NAME", "NAME"]}
+{"text": "Salome Machaidze är en av grundarna till stiftelsen.", "expected": ["NAME"]}
+{"text": "Dr. Björn Olsson höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Jag träffade inte Arjun Mehta på festen.", "expected": ["NAME"]}
+{"text": "Rakel Jansson anlände sent till konferensen.", "expected": ["NAME"]}
+{"text": "Enligt Arjun Mehtas advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Wojciech Kowalski tackade nej till erbjudandet.", "expected": ["NAME"]}
+{"text": "Enligt Siobhán Ní Bhriains advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Har du sett Sigrid Pettersson idag?", "expected": ["NAME"]}
+{"text": "Vi bjöd in Tigist Haile, Haruto Tanaka samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Har du sett Þórunn Sigurðardóttir idag?", "expected": ["NAME"]}
+{"text": "Herr Björn Larsson väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Lars Petterssons förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Elin Nilsson, Katarzyna Nowak och Abdirahman Warsame.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Anahit Sargsyan och Guðmundur Þórsson arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "F. Holmgren skrev rapporten.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Fatima Al-Zahra, Gustav Lindberg samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Siobhán Ní Bhriain kommer priserna att stiga nästa kvartal.", "expected": ["NAME"]}
+{"text": "Björk Guðmundsdóttir kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "A. Lindberg skrev rapporten.", "expected": ["NAME"]}
+{"text": "Enligt Ngozi Ezes advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Bland gästerna märktes Nils Hansson, Kristina Ekström och Amina Hassan.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Bland gästerna märktes Anahit Sargsyan, Anders Hansson och Lakshmi Iyer.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "\"Vi är glada över resultatet\", sa Aino Virtanen.", "expected": ["NAME"]}
+{"text": "Sigrid Holmgrens bok fick strålande recensioner.", "expected": ["NAME"]}
+{"text": "Björk skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "T. Blomqvist skrev rapporten.", "expected": ["NAME"]}
+{"text": "Kalani Kahananui anlände sent till konferensen.", "expected": ["NAME"]}
+{"text": "Deltagare: Dragan Petrović, Ingeborg Skjelbred och Lars Åberg.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Alla väntade på att Adele skulle komma till scenen.", "expected": ["NAME"]}
+{"text": "Min syster Ravi Chandrasekaran bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Bland gästerna märktes Nils Hansson, Priya Sharma och Haruto Tanaka.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Kontakta E. Bengtsson för mer information.", "expected": ["NAME"]}
+{"text": "Håkan Erikssons bok fick strålande recensioner.", "expected": ["NAME"]}
+{"text": "Fatima Al-Zahra anlände sent till konferensen.", "expected": ["NAME"]}
+{"text": "Professor Saga Gustafsson publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Elin Wikström och Björn Olsson kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Bengt Sandberg skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Þórunn Sigurðardóttirs förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Boken är tillägnad Mei-Ling Chen, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Har du sett Sting idag?", "expected": ["NAME"]}
+{"text": "Dragan Petrović pratade med Sakura Yamamoto om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "\"Vi är glada över resultatet\", sa Abebe Bikila.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Zsófia Kovács på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Fredrik Karlssons förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Fatima Al-Zahra kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Deltagare: Sigrid Pettersson, Maria Larsson och Kalani Kahananui.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Rapporten skrevs av Linnéa Lindqvist på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Elin Wikström, 34 år, greps av polisen i går kväll.", "expected": ["NAME"]}
+{"text": "Alla väntade på att Ingeborg Skjelbred skulle komma till scenen.", "expected": ["NAME"]}
+{"text": "Ravi Chandrasekaran är en av grundarna till stiftelsen.", "expected": ["NAME"]}
+{"text": "Deltagare: Sigrid Holmgren, Lars Åberg och Sakura Yamamoto.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Min syster Haruto Tanaka bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Abdirahman Warsames förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Vem pratade du med? Det var Björk Guðmundsdóttir.", "expected": ["NAME"]}
+{"text": "Chidinma Okafors bok fick strålande recensioner.", "expected": ["NAME"]}
+{"text": "Salome Machaidze kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Kristina Ekström och Maria Larsson arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Jag träffade inte Zendaya på festen.", "expected": ["NAME"]}
+{"text": "Arjun Mehta och Björn Olsson kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Elif Yıldız tackade nej till erbjudandet.", "expected": ["NAME"]}
+{"text": "Enligt Lars Petterssons advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Kontakta Erik Holmgren om du har frågor om projektet.", "expected": ["NAME"]}
+{"text": "Elin Nilssons förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Haruto Tanaka pratade med Håkan Eriksson om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "L. Åberg skrev rapporten.", "expected": ["NAME"]}
+{"text": "Deltagare: Nikoloz Beridze och Boris Novák.", "expected": ["NAME", "NAME"]}
+{"text": "Per Johansson, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Sigrid Holmgren gifte sig med Björk Guðmundsdóttir i somras.", "expected": ["NAME", "NAME"]}
+{"text": "Boken är tillägnad Ngozi Eze, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Herr Elin Wikström väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Enligt uppgift ska Björk ha lämnat företaget.", "expected": ["NAME"]}
+{"text": "B. Sandberg skrev rapporten.", "expected": ["NAME"]}
+{"text": "Ingrid Jonsson, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "A. Persson skrev rapporten.", "expected": ["NAME"]}
+{"text": "Enligt Xiomara Delgado kommer priserna att stiga nästa kvartal.", "expected": ["NAME"]}
+{"text": "Bland gästerna märktes Ngozi Eze, Anahit Sargsyan och Anders Persson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Vi bjöd in Gustav Karlsson, Ingrid Sandberg samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Gustav Karlsson skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Både Nguyễn Văn An och Chidinma Okafor nekade till anklagelserna.", "expected": ["NAME", "NAME"]}
+{"text": "Per Johansson gifte sig med Björk Guðmundsdóttir i somras.", "expected": ["NAME", "NAME"]}
+{"text": "Björn Larsson, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Trần Thị Hoa på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Dr. Ingrid Jonsson höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Lars Pettersson, Xiomara Delgado samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Salome Machaidze kände Anders Persson inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "Kristina Ekström skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Amina Hassan utsågs till årets idrottare.", "expected": ["NAME"]}
+{"text": "Både Abebe Bikila och Ingrid Jonsson nekade till anklagelserna.", "expected": ["NAME", "NAME"]}
+{"text": "Bengt Åberg vann tävlingen i Paris förra helgen.", "expected": ["NAME"]}
+{"text": "Sigrid Petterssons förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Salome Machaidze gifte sig med Sakura Yamamoto i somras.", "expected": ["NAME", "NAME"]}
+{"text": "Sakura Yamamotos förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Yusuf al-Farsi kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Sigrid Pettersson, Nguyễn Văn An och Lars Pettersson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Deltagare: Abdirahman Warsame, Bengt Sandberg och Dragan Petrović.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Siobhán Ní Bhriain utsågs till årets idrottare.", "expected": ["NAME"]}
+{"text": "Saga Gustafsson utsågs till årets idrottare.", "expected": ["NAME"]}
+{"text": "Boken är tillägnad Maria Larsson, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Elin Nilsson, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Kontakta N. Jonsson för mer information.", "expected": ["NAME"]}
+{"text": "Enligt Kalani Kahananui kände Yusuf al-Farsi inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "K. Svensson skrev rapporten.", "expected": ["NAME"]}
+{"text": "Bengt Sandberg, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Mohammed bin Rashid på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Abebe Bikila gifte sig med Þórunn Sigurðardóttir i somras.", "expected": ["NAME", "NAME"]}
+{"text": "Sting skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Jag träffade inte Abebe Bikila på festen.", "expected": ["NAME"]}
+{"text": "Fru Kalani Kahananui lämnade in sin avskedsansökan idag.", "expected": ["NAME"]}
+{"text": "Aino Virtanen pratade med Abebe Bikila om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "Boken är tillägnad Yusuf al-Farsi, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Deltagare: Ngozi Eze och Elif Yıldız.", "expected": ["NAME", "NAME"]}
+{"text": "Rapporten skrevs av Lakshmi Iyer på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Med vänliga hälsningar, Ingeborg Skjelbred", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Abdirahman Warsame på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Både Ngozi Eze och Haruto Tanaka nekade till anklagelserna.", "expected": ["NAME", "NAME"]}
+{"text": "Hej, jag träffade Ngozi Eze igår.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Zendaya på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Zsófia Kovács gifte sig med Xiomara Delgado i somras.", "expected": ["NAME", "NAME"]}
+{"text": "Min syster Þórunn Sigurðardóttir bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Lars Åberg skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Þórunn Sigurðardóttir, Yusuf al-Farsi samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Herr Sigrid Holmgren väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Nils Hansson pratade med Karin Öhman om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "Dragan Petrović, 34 år, greps av polisen i går kväll.", "expected": ["NAME"]}
+{"text": "Deltagare: Siobhán Ní Bhriain och Nikoloz Beridze.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Maria Larssons advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Enligt Rangi Te Whata kände Haruto Tanaka inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "Anders Hansson är en av grundarna till stiftelsen.", "expected": ["NAME"]}
+{"text": "Tigist Hailes förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Fru Boris Novák lämnade in sin avskedsansökan idag.", "expected": ["NAME"]}
+{"text": "Professor Sigrid Pettersson publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Siobhán Ní Bhriains förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Igår ringde Anahit Sargsyan och frågade om mötet.", "expected": ["NAME"]}
+{"text": "Enligt Ingeborg Skjelbred kände Aleksander Wróbel inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Dragan Petrovićs advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Herr Sigrid Pettersson väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Boris Novák, Mei-Ling Chen och Sigrid Holmgren.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Chidinma Okafor anlände sent till konferensen.", "expected": ["NAME"]}
+{"text": "Dr. Arjun Mehta höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Ingrid Sandbergs förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Vem pratade du med? Det var Kristina Ekström.", "expected": ["NAME"]}
+{"text": "Deltagare: Nikoloz Beridze och Sakura Yamamoto.", "expected": ["NAME", "NAME"]}
+{"text": "Igår ringde Nikoloz Beridze och frågade om mötet.", "expected": ["NAME"]}
+{"text": "Nikoloz Beridze utsågs till årets idrottare.", "expected": ["NAME"]}
+{"text": "Herr Zendaya väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Hej, jag träffade Väinö Häkkinen igår.", "expected": ["NAME"]}
+{"text": "Vem pratade du med? Det var Nikoloz Beridze.", "expected": ["NAME"]}
+{"text": "Ravi Chandrasekaran kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Deltagare: Mei-Ling Chen, Rakel Lindberg och Nguyễn Văn An.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Hej, jag träffade Katarzyna Nowak igår.", "expected": ["NAME"]}
+{"text": "Boken är tillägnad Haruto Tanaka, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Ingrid Jonsson och Kalani Kahananui arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Vem pratade du med? Det var Beyoncé.", "expected": ["NAME"]}
+{"text": "Erik Holmgren och Tigist Haile kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Igår ringde Linnéa Lindqvist och frågade om mötet.", "expected": ["NAME"]}
+{"text": "Vem pratade du med? Det var Lakshmi Iyer.", "expected": ["NAME"]}
+{"text": "Dr. Fatima Al-Zahra höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Trần Thị Hoa, Nikoloz Beridze och Guðmundur Þórsson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Styrelsen består av Anna Blomqvist, Ravi Chandrasekaran och Björn Larsson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Kontakta A. Persson för mer information.", "expected": ["NAME"]}
+{"text": "Astrid Blomqvist och Sigrid Pettersson kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Hej, jag träffade Kristina Ekström igår.", "expected": ["NAME"]}
+{"text": "Gustav Lindberg tackade nej till erbjudandet.", "expected": ["NAME"]}
+{"text": "Zsófia Kovács pratade med Guðmundur Þórsson om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "Deltagare: Gustav Lindberg, Lars Pettersson och Priya Sharma.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Hej, jag träffade Priya Sharma igår.", "expected": ["NAME"]}
+{"text": "Enligt Wojciech Kowalski kände Nils Hansson inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "Jag pratade länge med Sigrid Pettersson om framtidsplanerna.", "expected": ["NAME"]}
+{"text": "Herr Ngozi Eze väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Enligt Håkan Erikssons advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Bland gästerna märktes Bengt Åberg, Mohammed bin Rashid och Kalani Kahananui.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Elin Nilsson vann tävlingen i Paris förra helgen.", "expected": ["NAME"]}
+{"text": "Dr. Anders Persson höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Gustav Karlsson, Abebe Bikila och Aino Virtanen.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Kristina Ekström och Abebe Bikila arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Kontakta Nguyễn Văn An om du har frågor om projektet.", "expected": ["NAME"]}
+{"text": "Zsófia Kovács och Abebe Bikila arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Bland gästerna märktes Nguyễn Văn An, Lakshmi Iyer och Sigrid Pettersson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Deltagare: Trần Thị Hoa, Aleksander Wróbel och Sigrid Pettersson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Bland gästerna märktes Abdirahman Warsame, Fatima Al-Zahra och Astrid Blomqvist.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Dr. Linnéa Lindqvist höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Björk Guðmundsdóttir vann tävlingen i Paris förra helgen.", "expected": ["NAME"]}
+{"text": "Madonna skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Salome Machaidze, Anders Persson samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Min syster Erik Holmgren bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Mei-Ling Chen på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Dragan Petrović pratade med Mei-Ling Chen om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "Hej, jag träffade Eva Bengtsson igår.", "expected": ["NAME"]}
+{"text": "Vem pratade du med? Det var Sigrid Pettersson.", "expected": ["NAME"]}
+{"text": "Amina Hassan flyttade till Malmö förra året.", "expected": ["NAME"]}
+{"text": "Kontakta Mohammed bin Rashid om du har frågor om projektet.", "expected": ["NAME"]}
+{"text": "Ingeborg Skjelbred kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Jag pratade länge med Siobhán Ní Bhriain om framtidsplanerna.", "expected": ["NAME"]}
+{"text": "Saga Gustafsson, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Min syster Arjun Mehta bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Professor Linnéa Lindqvist publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Kwame Asante kommenterade inte händelsen när tidningen ringde.", "expected": ["NAME"]}
+{"text": "Anahit Sargsyan flyttade till Malmö förra året.", "expected": ["NAME"]}
+{"text": "Deltagare: Maria Larsson och Oluwaseun Adeyemi.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Ngozi Eze kommer priserna att stiga nästa kvartal.", "expected": ["NAME"]}
+{"text": "Professor Ingrid Jonsson publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Jag träffade inte Ingeborg Skjelbred på festen.", "expected": ["NAME"]}
+{"text": "Har du sett Mei-Ling Chen idag?", "expected": ["NAME"]}
+{"text": "Hej, jag träffade Sting igår.", "expected": ["NAME"]}
+{"text": "Xiomara Delgado tackade nej till erbjudandet.", "expected": ["NAME"]}
+{"text": "Jag träffade inte Guðmundur Þórsson på festen.", "expected": ["NAME"]}
+{"text": "Kontakta J. Nilsson för mer information.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Mei-Ling Chen, Elin Wikström och Björn Larsson.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Fru Björk lämnade in sin avskedsansökan idag.", "expected": ["NAME"]}
+{"text": "Herr Nikoloz Beridze väntar i receptionen.", "expected": ["NAME"]}
+{"text": "Boris Novák pratade med Abdirahman Warsame om det nya förslaget.", "expected": ["NAME", "NAME"]}
+{"text": "Igår ringde Ngozi Eze och frågade om mötet.", "expected": ["NAME"]}
+{"text": "Priya Sharmas bok fick strålande recensioner.", "expected": ["NAME"]}
+{"text": "Fredrik Karlsson och Per Johansson kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Vi bjöd in Erik Holmgren, Lars Pettersson samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Professor Elin Wikström publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Rapporten skrevs av Aleksander Wróbel på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Oluwaseun Adeyemi och Bengt Sandberg arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Jag pratade länge med Chidinma Okafor om framtidsplanerna.", "expected": ["NAME"]}
+{"text": "Elin Wikström och Saga Gustafsson arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Nils Hanssons advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Professor Rakel Lindberg publicerade en ny studie i tidskriften.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Karin Öhman, Elin Wikström samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Fru Priya Sharma lämnade in sin avskedsansökan idag.", "expected": ["NAME"]}
+{"text": "Vi bjöd in Xiomara Delgado, Håkan Eriksson samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Med vänliga hälsningar, Haruto Tanaka", "expected": ["NAME"]}
+{"text": "Vi bjöd in Astrid Blomqvist, Eva Bengtsson samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Boken är tillägnad Sting, som gick bort förra året.", "expected": ["NAME"]}
+{"text": "Nguyễn Văn An och Bengt Åberg kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Deltagare: Dragan Petrović, Boris Novák och Xiomara Delgado.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Abebe Bikilas förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Eva Bengtsson och Dragan Petrović arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Dr. Lakshmi Iyer höll en föreläsning om klimatförändringar.", "expected": ["NAME"]}
+{"text": "Både Yusuf al-Farsi och Sakura Yamamoto nekade till anklagelserna.", "expected": ["NAME", "NAME"]}
+{"text": "Vi bjöd in Haruto Tanaka, Ingeborg Skjelbred samt några till.", "expected": ["NAME", "NAME"]}
+{"text": "Arjun Mehta anlände sent till konferensen.", "expected": ["NAME"]}
+{"text": "\"Vi är glada över resultatet\", sa Haruto Tanaka.", "expected": ["NAME"]}
+{"text": "Ravi Chandrasekarans förslag godkändes av styrelsen.", "expected": ["NAME"]}
+{"text": "Jag träffade inte Maria Larsson på festen.", "expected": ["NAME"]}
+{"text": "Enligt uppgift ska Rangi Te Whata ha lämnat företaget.", "expected": ["NAME"]}
+{"text": "Per Johansson och Nguyễn Văn An kom på mötet.", "expected": ["NAME", "NAME"]}
+{"text": "Med vänliga hälsningar, Xiomara Delgado", "expected": ["NAME"]}
+{"text": "Adele är en av grundarna till stiftelsen.", "expected": ["NAME"]}
+{"text": "Bland gästerna märktes Lars Pettersson, Priya Sharma och Ingeborg Skjelbred.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Rapporten skrevs av Eva Bengtsson på uppdrag av kommunen.", "expected": ["NAME"]}
+{"text": "Gustav Lindberg utsågs till årets idrottare.", "expected": ["NAME"]}
+{"text": "\"Vi är glada över resultatet\", sa Kristina Ekström.", "expected": ["NAME"]}
+{"text": "Jag pratade länge med Oluwaseun Adeyemi om framtidsplanerna.", "expected": ["NAME"]}
+{"text": "Nikoloz Beridze, VD för företaget, meddelade nyheten på morgonen.", "expected": ["NAME"]}
+{"text": "Styrelsen består av Sigrid Pettersson, Siobhán Ní Bhriain och Ingeborg Skjelbred.", "expected": ["NAME", "NAME", "NAME"]}
+{"text": "Min syster Madonna bor i Göteborg.", "expected": ["NAME"]}
+{"text": "Ingrid Sandberg skickade in sin ansökan i sista minuten.", "expected": ["NAME"]}
+{"text": "Nikoloz Beridzes bok fick strålande recensioner.", "expected": ["NAME"]}
+{"text": "Fru Elif Yıldız lämnade in sin avskedsansökan idag.", "expected": ["NAME"]}
+{"text": "Hej, jag träffade Chidinma Okafor igår.", "expected": ["NAME"]}
+{"text": "Kristina Ekström och Aleksander Wróbel arbetar båda på samma avdelning.", "expected": ["NAME", "NAME"]}
+{"text": "Yusuf al-Farsi vann tävlingen i Paris förra helgen.", "expected": ["NAME"]}
+{"text": "Enligt Siobhán Ní Bhriain kände Lakshmi Iyer inte till planerna.", "expected": ["NAME", "NAME"]}
+{"text": "Enligt Sigrid Holmgrens advokat är utredningen felaktig.", "expected": ["NAME"]}
+{"text": "Sakura Yamamoto pratade med Bengt Åberg om det nya förslaget.", "expected": ["NAME", "NAME"]}
