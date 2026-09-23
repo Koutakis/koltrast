@@ -275,3 +275,43 @@ The default `kb-bert` model is trained on SUC 3.0 — formal written Swedish. On
 (chat logs, free-text notes, heavy abbreviation) it will miss names, silently and
 without error. Try the `gliner` backend if that is your data. Either way, sample the
 output before treating this as compliance-grade redaction.
+
+## Comparing models
+
+The manual comparison script evaluates KB-BERT and the configured GLiNER models
+against the annotated test data in `compareModels/`.
+
+Install the project with the GLiNER dependencies:
+
+```bash
+python -m pip install -e ".[gliner]"
+```
+
+If GLiNER reports that protobuf is missing:
+
+```bash
+python -m pip install protobuf
+```
+
+Run the comparison from the repository root:
+
+```bash
+python compareModels/compare_models.py
+```
+
+The script:
+
+Loads each model before starting its timer.
+Processes the same test strings with every model - test_srtings.txt.
+Writes redacted text to compareModels/results_<model>.txt.
+Compares predictions with test_strings1.jsonl.
+Writes precision, recall, F1, error examples, and timing to
+stats_file.txt.
+Models and settings are configured in the MODELS dictionary in
+compare_models.py. Use the same min_score when comparing GLiNER
+models. The configured batch_size controls how many strings are processed
+together and affects both speed and memory consumption.
+
+Model weights are downloaded from Hugging Face on the first run and reused from
+the local cache afterward. An internet connection is therefore normally required
+only for the first run.

@@ -76,6 +76,20 @@ def test_extra_patterns():
     assert kt.redact_text("maila kalle@example.se", config) == "maila [EPOST]"
 
 
+def test_email_redacted():
+    assert kt.redact_text("maila kalle@example.se") == "maila [EMAIL]"
+
+
+def test_email_toggle_off():
+    out = kt.redact_text("maila kalle@example.se", kt.Config(redact_email=False))
+    assert "kalle@example.se" in out
+
+
+def test_name_and_email_redacted():
+    out = kt.redact_text("Görans mailadress är göran@görancosmetics.se")
+    assert out == "[NAMN]s mailadress är [EMAIL]"
+
+
 def test_longest_span_wins_on_overlap():
     # "Anna Andersson" and "Anna" both match; no truncated garbage left behind
     assert kt.redact_text("Anna Andersson kom") == "[NAMN] kom"

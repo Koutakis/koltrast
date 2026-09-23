@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS metadata
+.DS_Store
+
+# Model comparison output
+compareModels/results_*.txt
+compareModels/stats_file.txt

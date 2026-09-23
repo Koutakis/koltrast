@@ -13,6 +13,8 @@ from .backends import (
 from ._frames import PandasPerformanceWarning
 from .backends import load
 from ._personnummer import find_personnummer, is_valid_personnummer
+from ._email import find_email, is_valid_email
+
 from .core import (
     MODEL_NAME,
     NAME_TAG,
@@ -43,10 +45,13 @@ __all__ = [
     "PandasPerformanceWarning",
     "is_valid_personnummer",
     "find_personnummer",
+    "find_email",
+    "is_valid_email",
     "DEFAULT_BACKEND",
     "KB_BERT_MODEL",
     "GLINER_MODEL",
     "MODEL_NAME",
     "NAME_TAG",
     "PERSONNUMMER_TAG",
+    "EMAIL_TAG",
 ]
